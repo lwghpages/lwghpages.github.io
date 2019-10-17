@@ -9,14 +9,18 @@ import s from '../styles/app.style';
 
 export default function App() {
   return (
+  
     <div style={s.root}>
-      <h1 style={s.title}>Single Page Apps for GitHub Pages</h1>
-      <Interactive
+     
+
+
+      {/* <h1 style={s.title}>Single Page Apps for GitHub Pages</h1> */}
+      {/* <Interactive
         as="a"
-        href="https://github.com/rafrex/spa-github-pages"
+        href="https://github.com/lwghpages/lwghpages.github.io"
         style={s.repoLink}
         {...s.link}
-      >https://github.com/rafrex/spa-github-pages</Interactive>
+      >https://github.com/lwghpages/lwghpages.github.io</Interactive> */}
 
       <nav style={s.breadcrumbs}>
         <Breadcrumbs />
@@ -40,6 +44,16 @@ export default function App() {
           Code and concept by <span {...s.childLink}>Rafael Pedicini</span>
         </Interactive>
       </div>
+      <Interactive
+        as="a"
+        href="https://hireloganw.github.io"
+        style={s.repoLink}
+        {...s.link}
+      >https://hireloganw.github.io<button className="floating-btn">
+      Get in Touch
+    </button></Interactive>
+   
+
     </div>
   );
 }

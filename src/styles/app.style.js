@@ -8,11 +8,11 @@ s.root = {
   fontSize: '16px',
   letterSpacing: '0.025em',
   padding: '3vh 0 12vh 0',
-  width: '500px',
+  width: '100%',
   // use responsive max-width to simulate padding/margin to allow
   // space for vertical scroll bar without creating horizontal scroll bar
   // (if there is padding, the window will scroll horizontally to show the padding)
-  maxWidth: 'calc(100vw - 40px)',
+  maxWidth: '100vw',
 
   // center based on vw to prevent content jump when vertical scroll bar show/hide
   // note: vw/vh include the width of scroll bars. Note that centering using margin auto
@@ -41,7 +41,14 @@ s.repoLink = {
 };
 
 s.breadcrumbs = {
-  margin: '3vh 0',
+  margin: '0vh 0',
+  position: 'absolute',
+  left: '15px',
+  top: '0.32em',
+  fontSize: '1.5em',
+  fontWeight: 'bold',
+  color:'goldenrod'
+  
 };
 
 s.creditLine = {
