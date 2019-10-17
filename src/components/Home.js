@@ -22,12 +22,12 @@ export default function Home() {
   return (
     <div>
       <br/>
-      <div style={s.pageLinkContainer}>
+      <div style={s.pageLinkContainer} style={{marginLeft:'1em'}}>
         <Interactive
           as={Link}
           {...s.link}
           to="/work"
-        >Example page</Interactive>
+        >Recent Work</Interactive>
       </div>
         <img className='blobCornerFace' src="https://dl3.pushbulletusercontent.com/Md6WRUbRxFhS5IYnaKmANHUcw4Jg1uG0/blobcornerface.jpg" alt="blob" style={{maxWidth: '27vw',height: 'auto',}} />
 

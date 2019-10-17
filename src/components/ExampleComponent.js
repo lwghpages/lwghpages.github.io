@@ -15,7 +15,7 @@ export default function ExampleComponent() {
   return (
     <Switch>
       <Route
-        exact path="/work/two-deep"
+        exact path="/work/social"
         render={({ location }) => (
           <div>
             <ExamplePageText />
@@ -29,12 +29,12 @@ export default function ExampleComponent() {
         render={() => (
           <div>
             <ExamplePageText />
-            <div style={s.pageLinkContainer} style={{backgroundColor:'#222222'}}>
+            <div style={s.pageLinkContainer} style={{backgroundColor:'#222222',paddingLeft:'1em'}}>
               <Interactive
                 as={Link}
                 {...s.link}
-                to="/work/two-deep?field1=foo&field2=bar#boom!"
-              >Example two deep with query and hash</Interactive>
+                to="/work/social?field1=foo&field2=bar#boom!"
+              >Social Media</Interactive>
             </div>
 <div style={{height:'100%',width:'100vw',backgroundColor:'#222222',position:'absolute',zIndex:'-1'}}></div>
             <img src="https://dl3.pushbulletusercontent.com/IYTBjNAIDrX0fkzJndnHlYQPiWn0HWeH/loganlognetfl3.png" alt="" className="logo" />
