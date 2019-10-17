@@ -44,7 +44,7 @@ export default class HeadingHero extends Component {
         </div>
       </div>
     </section>
-
+ 
       </div>
     )
   }

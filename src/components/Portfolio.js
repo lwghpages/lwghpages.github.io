@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
       <div>
           {/* REFACTOR THIS and iterate over when  have time*/}
 	
-
+ 
 				<div className="grid">
 					<figure className="effect-kira">
 						<img className='fullWidthImg' src="https://dl3.pushbulletusercontent.com/erbPd0oa2lWnC4WrM2HivCpHFYiLxlpc/blueblob00.jpg" alt="blueblob"/>

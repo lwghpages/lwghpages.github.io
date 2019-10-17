@@ -4,7 +4,7 @@ export default class CallToAction extends Component {
   render() {
     return (
       <div style={{paddingTop:'6.777%'}}>
-
+ 
         <section className="callto-action" >
       <div className="container">
         <div className="row align-items-center">

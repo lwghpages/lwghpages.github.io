@@ -48,7 +48,7 @@ s.breadcrumbs = {
   fontSize: '1.5em',
   fontWeight: 'bold',
   color:'goldenrod'
-  
+    
 };
 
 s.creditLine = {
