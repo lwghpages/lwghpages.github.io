@@ -26,7 +26,7 @@ export default class FunFacts extends Component {
           <div className="col-md-3 col-6">
             <div className="single-fun">
               <div className="s-fun" style={{padding:'10%'}}>
-              <h5 style={{fontSize:'2.24em',padding:'5px 7px 5px 7px',margin:'auto',marginLeft:'-10%'}}>Javascript</h5>
+              <h5 style={{fontSize:'2em',padding:'5px 7px 5px 7px',margin:'auto',marginLeft:'-10%'}}>Javascript</h5>
                
                 <span style={{transform:'translate(0,-2.4em)',lineHeight:'1.15'}}><span style={{color:'goldenrod'}}>Node.js</span>, Api's, <span style={{color:'goldenrod'}}>ES6</span>,<br/> Promises, asyc-await, <span style={{color:'goldenrod'}}>vanilla js</span>,<br/> <span style={{color:'#09f'}}>React.js</span>, Vue.js &amp; more</span>
               </div>

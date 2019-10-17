@@ -9,7 +9,7 @@ export default class Portfolio extends Component {
  
 				<div className="grid">
 					<figure className="effect-kira">
-						<img className='fullWidthImg' src="https://dl3.pushbulletusercontent.com/erbPd0oa2lWnC4WrM2HivCpHFYiLxlpc/blueblob00.jpg" alt="blueblob"/>
+						<img className='fullWidthImg' src="https://dl3.pushbulletusercontent.com/SicpQTn4f5tnkrAoqhIrdw12Ag0vmTKO/blueblob004.jpg" alt="blueblob"/>
 						<figcaption>
 							<h2 style={{maxWidth:'88vw',color:'#333'}}>My &nbsp;<span style={{color:'#49f'}}>Resume</span></h2>
 							<p>

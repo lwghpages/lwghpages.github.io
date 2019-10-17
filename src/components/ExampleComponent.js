@@ -15,7 +15,7 @@ export default function ExampleComponent() {
   return (
     <Switch>
       <Route
-        exact path="/example/two-deep"
+        exact path="/work/two-deep"
         render={({ location }) => (
           <div>
             <ExamplePageText />
@@ -25,7 +25,7 @@ export default function ExampleComponent() {
         )}
       />
       <Route
-        exact path="/example"
+        exact path="/work"
         render={() => (
           <div>
             <ExamplePageText />
@@ -33,7 +33,7 @@ export default function ExampleComponent() {
               <Interactive
                 as={Link}
                 {...s.link}
-                to="/example/two-deep?field1=foo&field2=bar#boom!"
+                to="/work/two-deep?field1=foo&field2=bar#boom!"
               >Example two deep with query and hash</Interactive>
             </div>
 <div style={{height:'100%',width:'100vw',backgroundColor:'#222222',position:'absolute',zIndex:'-1'}}></div>
@@ -100,7 +100,7 @@ export default function ExampleComponent() {
   {/* start head description  */}
   <li className="description description--placeholder">
     <h2 className="heading heading--2">Logan J Wilson's Work</h2>
-    <p>Click on a project to see a description &amp; project overview.</p>
+    <p style={{color:'#e83e8c'}}>Click on a project below to see a description &amp; project overview.</p>
     <p>See My Work, But want to know more? Download <a href="#">My Resume</a>, as a PDF <a href="#"></a>.</p>
   </li>
   <li className="description__close"><a href="#">×</a></li>

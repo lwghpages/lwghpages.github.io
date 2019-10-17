@@ -21,6 +21,14 @@ export default function Home() {
 
   return (
     <div>
+      <br/>
+      <div style={s.pageLinkContainer}>
+        <Interactive
+          as={Link}
+          {...s.link}
+          to="/work"
+        >Example page</Interactive>
+      </div>
         <img className='blobCornerFace' src="https://dl3.pushbulletusercontent.com/Md6WRUbRxFhS5IYnaKmANHUcw4Jg1uG0/blobcornerface.jpg" alt="blob" style={{maxWidth: '27vw',height: 'auto',}} />
 
         <img src="https://dl3.pushbulletusercontent.com/IYTBjNAIDrX0fkzJndnHlYQPiWn0HWeH/loganlognetfl3.png" style={{minWidth:'100px',maxWidth: '130px',height: 'auto',marginLeft:'23%',marginTop: '1.32em',}}  alt="logo"/>
@@ -47,7 +55,7 @@ export default function Home() {
         <Interactive
           as={Link}
           {...s.link}
-          to="/example"
+          to="/work"
         >Example page</Interactive>
       </div>
       <div style={s.pageLinkContainer}>

@@ -9,7 +9,7 @@ import s from '../styles/app.style';
 
 export default function App() {
   return (
-   
+    
     <div style={s.root}>
      
 
@@ -28,7 +28,7 @@ export default function App() {
 
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/example" component={ExampleComponent} />
+        <Route path="/work" component={ExampleComponent} />
         <Route component={PageNotFound} />
       </Switch>
 
@@ -41,7 +41,7 @@ export default function App() {
           touchActive={{}}
           touchActiveTapOnly
         >
-          Code and concept by <span {...s.childLink}>Rafael Pedicini</span>
+          This is built in React.js  <span {...s.childLink}>Logan Wilson</span>
         </Interactive>
       </div>
       <Interactive
