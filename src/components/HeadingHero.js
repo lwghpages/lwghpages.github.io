@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Interactive from 'react-interactive';
 // import myWorkPage from './myWork.html';
 
 export default class HeadingHero extends Component {
@@ -36,9 +37,17 @@ export default class HeadingHero extends Component {
 <p style={{lineHeight:'1.5',fontSize: '1.2em'}}><span style={{color:'#0d9'}}>I am business minded.</span> <span style={{color:'violet'}}>-</span> cognisant of how my actions, attitude &amp; quality of work can and will affect the big picture of the business.</p>
               {/* <img src="https://placehold.it/50x50.jpg" alt="" className="signature"/> */}
               
-              <a href="#"className="btn btnSeeWork" style={{backgroundColor:'#001f61',color:'white'}}>See Recent Work</a>
-              
-
+              <Interactive
+          as="a"
+          href="/work"
+          interactiveChild
+          focus={{}}
+          touchActive={{}}
+          touchActiveTapOnly
+        >
+              <button className="btn btnSeeWork" style={{backgroundColor:'#001f61',color:'white'}}>See Recent Work</button>
+          
+          </Interactive>
             </div>
           </div>
         </div>
