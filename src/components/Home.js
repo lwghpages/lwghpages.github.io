@@ -40,7 +40,7 @@ export default function Home() {
       <Portfolio />
 
       <p style={s.p} style={{padding: '1em 2em'}}>
-        This is an example Single Page Application (SPA) built
+        My Portfolio is Single Page Application (SPA) built
         with React and React&nbsp;Router using {' '}
         <Code>BrowserRouter</Code>. 
        
