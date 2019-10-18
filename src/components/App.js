@@ -32,27 +32,38 @@ export default function App() {
         <Route component={PageNotFound} />
       </Switch>
 
-      <div style={s.creditLine}>
+      <div style={s.creditLine} style={{padding: '1em 2em'}}style={{padding: '1em 2em'}}>
         <Interactive
           as="a"
-          href="http://www.rafaelpedicini.com"
+          href="http://www.loganjwilson.com"
           interactiveChild
           focus={{}}
           touchActive={{}}
           touchActiveTapOnly
         >
-          This is built in React.js  <span {...s.childLink}>Logan Wilson</span>
+          This is built in React.js <span {...s.childLink}>Logan Wilson</span>
         </Interactive>
       </div>
+      <div style={{padding:'1em 2em'}}>
       <Interactive
         as="a"
         href="https://hireloganw.github.io"
         style={s.repoLink}
         {...s.link}
-      >https://hireloganw.github.io<button className="floating-btn">
+        
+      ></Interactive>
+      <Interactive 
+      as="a"
+          href="http://www.loganjwilson.com"
+          interactiveChild
+          focus={{}}
+          touchActive={{}}
+          touchActiveTapOnly>
+        <button className="floating-btn" >
       Get in Touch
-    </button></Interactive>
-   
+    </button>
+    </Interactive>
+   </div>
 
     </div>
   );
