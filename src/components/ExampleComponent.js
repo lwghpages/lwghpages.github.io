@@ -70,7 +70,9 @@ export default function ExampleComponent() {
   </li>
   <li className="description" id="test5">
     <h2 className="heading heading--2">test5</h2>
-    <img src="https://dl3.pushbulletusercontent.com/oNJ8YCFWKx4ouxgaAi9bkSTYOnKbIOle/fhffLogoResize300.jpg" alt="FhFF logo" style={{height:'80vh', width:'auto',margin:'5px auto 7px auto'}}/>
+    <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
+    <img src="https://dl3.pushbulletusercontent.com/oNJ8YCFWKx4ouxgaAi9bkSTYOnKbIOle/fhffLogoResize300.jpg" alt="FhFF logo" style={{position: 'absolute', top: '0', left: '0', width: '73%',padding:'0 7px 5px 0', height: '100%'}}/>
+    </div>
     <p>I created a Custom Logo with <code>Adobe Illustrator</code> for a Non-Profit Foundation In Miami, Florida. Focused on helping homeless, hungry &amp; in danger cats/kittens.Feeding Homeless Felines Foundation. This is<code>Vector Art</code>. It can be resized to the size of a building and it will keep its perfect crispness.</p>
 
     
