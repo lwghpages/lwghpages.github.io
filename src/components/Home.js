@@ -40,18 +40,17 @@ export default function Home() {
       <Portfolio />
 
       <p style={s.p}>
-        This is an example single page app built
+        This is an example Single Page Application (SPA) built
         with React and React&nbsp;Router using {' '}
-        <Code>BrowserRouter</Code>. Navigate with the links below and
-        refresh the page or copy/paste the url to test out the redirect
-        functionality deployed to overcome GitHub&nbsp;Pages incompatibility
-        with single page apps (like this one).
+        <Code>BrowserRouter</Code>. 
+       
+        GitHub&nbsp;Pages incompatibility
+        with single page apps (like this one) is just another challenge that gives me a sense of accomplishment. Knowing that there is a will there is a way and No matter what I will overcome these challenges.
       </p>
       <p style={s.p}>
-        Please see the {repoReadmeLink('repo readme')} for instructions on how to
-        use this boilerplate to deploy your own single page app using GitHub Pages.
+       I'm Fluent in Adobe Design Programs. Need tutoring?, Don't hesitate to reach out.
       </p>
-      <div style={s.pageLinkContainer}>
+      {/* <div style={s.pageLinkContainer}>
         <Interactive
           as={Link}
           {...s.link}
@@ -64,7 +63,7 @@ export default function Home() {
           {...s.link}
           to="/example/two-deep?field1=foo&field2=bar#boom!"
         >Example two deep with query and hash</Interactive>
-      </div>
+      </div> */}
     </div>
   );
 }

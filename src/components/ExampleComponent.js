@@ -3,7 +3,8 @@ import Interactive from 'react-interactive';
 import { Switch, Route, Link } from 'react-router-dom';
 import ExampleTwoDeepComponent from './ExampleTwoDeepComponent';
 import PageNotFound from './PageNotFound';
-import s from '../styles/exampleComponent.style';
+import s from'../styles/exampleComponent.style';
+// import '../myWork.css';
 
 
 
@@ -37,7 +38,7 @@ export default function ExampleComponent() {
               >Social Media</Interactive>
             </div>
 <div style={{height:'100%',width:'100vw',backgroundColor:'#222222',position:'absolute',zIndex:'-1'}}></div>
-            <img src="https://dl3.pushbulletusercontent.com/IYTBjNAIDrX0fkzJndnHlYQPiWn0HWeH/loganlognetfl3.png" alt="" className="logo" />
+            <img style={{transform:'scale(0.88)'}} src="https://dl3.pushbulletusercontent.com/IYTBjNAIDrX0fkzJndnHlYQPiWn0HWeH/loganlognetfl3.png" alt="" className="logo" />
 
 <ul className="descriptions">
   <li className="description" id="loganTest1">
