@@ -55,13 +55,9 @@ export default function ExampleComponent() {
   </li>
   <li className="description" id="render">
     <h2 className="heading heading--2">render</h2>
-    <p>The test 3() method is required.</p>
+   <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}><iframe src="https://www.loom.com/embed/f61bec9a24794e6fbcfd288eeedb8e0f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}></iframe></div>
 
-   
-  </li>
-  <li className="description" id="test4">
-    <h2 className="heading heading--2">test4</h2>
-    <p>Invoked once, only on the client (not on the server), immediately a.</p>
+    <p>I created a website for personal use with a Cool Nav bar. (CSS Animations) to show off my skills for a possible tech layout. <code>HTML,CSS &amp; JavaScript, Image Masking, Adobe Photoshop, Adobe Illustrator</code></p>
 
     
   </li>

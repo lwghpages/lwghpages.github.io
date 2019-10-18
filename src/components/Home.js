@@ -45,7 +45,7 @@ export default function Home() {
         <Code>BrowserRouter</Code>. 
        
         GitHub&nbsp;Pages incompatibility
-        with single page apps (like this one) is just another challenge that gives me a sense of accomplishment. Knowing that there is a will there is a way and No matter what I will overcome these challenges.
+        with single page apps (like this one) is just another challenge that gives me a sense of accomplishment. Knowing that if there is a will..there is a way, and "no matter what!" I will overcome these challenges.
       </p>
       <p style={s.p} style={{padding: '1em 1em'}}>
        I'm Fluent in Adobe Design Programs. Need tutoring?, Don't hesitate to reach out.
