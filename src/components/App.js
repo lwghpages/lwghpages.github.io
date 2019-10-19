@@ -47,14 +47,14 @@ export default function App() {
       <div style={{padding:'1em 2em'}}>
       <Interactive
         as="a"
-        href="https://hireloganw.github.io"
+        href="https://loganwdev.github.io/loganWilsonResumev3.pdf"
         style={s.repoLink}
         {...s.link}
         
       ></Interactive>
       <Interactive 
       as="a"
-          href="http://www.loganjwilson.com"
+          href="mailto:loganwdev@gmail.com"
           interactiveChild
           focus={{}}
           touchActive={{}}

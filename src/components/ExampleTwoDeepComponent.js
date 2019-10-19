@@ -4,6 +4,7 @@ import Interactive from 'react-interactive';
 import { Link } from 'react-router-dom';
 import { Li } from '../styles/style';
 import s from '../styles/exampleTwoDeepComponent.style';
+import CallToAction from './CallToAction';
 
 const propTypes = {
   location: PropTypes.object.isRequired,
@@ -56,7 +57,13 @@ export default function ExampleTwoDeepComponent({ location }) {
 
   return (
     <div>
-      <div style={s.lineContainer}>
+
+<CallToAction />
+<li><a href="https://www.dribbble.com">Dribbble</a></li>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+               <li> <a href="https://www.twitter.com">Twitter</a></li>
+                <li><a href="https://www.github.com/hireloganw">Github</a></li>
+      {/* <div style={s.lineContainer}>
         <div>{queryStringTitle()}</div>
         <ul>
           {
@@ -72,7 +79,7 @@ export default function ExampleTwoDeepComponent({ location }) {
           {hashPresent && <Li>{location.hash.slice(1)}</Li>}
         </ul>
       </div>
-      {linkToShowQueryAndOrHash()}
+      {linkToShowQueryAndOrHash()} */}
     </div>
   );
 }

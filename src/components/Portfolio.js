@@ -14,8 +14,8 @@ export default class Portfolio extends Component {
 							<h2 style={{maxWidth:'88vw',color:'#333'}}>My &nbsp;<span style={{color:'#49f'}}>Resume</span></h2>
 							<p>
 								
-								<a className="iconLogan" href="./resumeLW.pdf"><i className="fa fa-fw fa-download"></i></a>
-								<a className="iconLogan" href="https://github.com/hireLoganW"><i className="fa fa-fw fa-github "></i></a>
+								<a className="iconLogan" href="https://loganwdev.github.io/loganWilsonResumev3.pdf"><i className="fa fa-fw fa-download"></i></a>
+								<a className="iconLogan" href="http://www.github.com/hireloganw"><i className="fa fa-fw fa-github "></i></a>
 								<a className="iconLogan" href="mailto:loganwdev@gmail.com"><i className="fa fa-fw fa-envelope "></i></a>
 							</p>
 						</figcaption>			
@@ -28,10 +28,11 @@ export default class Portfolio extends Component {
 							<h2> <span style={{textDecoration:'underline',textTransform:'lowercase'}}>My &nbsp;Recent&nbsp; Work</span>
               <br/>
               <div className='gridLinks' style={{display:'flex',flexDirection:'column',}}>
-                <a href="#1">My React Projects</a>
-                <a href="https://www.loom.com/share/8f3ad682e2d348eb8eab1db907d70c88">My Branding Efforts</a>
-                <a href="https://www.loom.com/share/6bf30a107b7c4ec68d6ea3c5b4aeb50d">My Charity Work</a>
-                <a href="#4">My Future Aspirations</a>
+              
+                <a href="./work">My React Projects</a>
+                <a href="./work">My Branding Efforts</a>
+                <a href="./work">My Charity Work</a>
+                <a href="./work">My Future Aspirations</a>
               </div>
               </h2>
               {/* 

@@ -51,7 +51,7 @@ export default function ExampleComponent() {
     <h2 className="heading heading--2">test2</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}><iframe src="https://www.loom.com/embed/6bf30a107b7c4ec68d6ea3c5b4aeb50d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}></iframe></div>
 
-    <p>I created a Website &amp; Custom Logo for a Non-Profit Foundation In Miami, Florida . Focused on helping homeless, hungry &amp; in danger cats/kittens.Feeding Homeless Felines Foundation. Integrating online donation platform through DonationBox. Technologies used - <code>HTML,CSS &amp; JavaScript, GSuite + DonationBox, light Ruby on Rails to implement DonationBox, Adobe Illustrator &amp; Photoshop</code></p>
+    <p>I created a Website &amp; Custom Logo for a Non-Profit Foundation In Miami, Florida . Focused on helping homeless, hungry &amp; in danger cats/kittens.Feeding Homeless Felines Foundation. Integrating online donation platform through DonationBox. Technologies used - <code>HTML,CSS &amp; JavaScript, GSuite + DonationBox, light Ruby on Rails to implement DonationBox, Hotjar.js(Heat Map &amp; Analytics, Adobe Illustrator &amp; Photoshop</code></p>
   </li>
   <li className="description" id="test3">
     <h2 className="heading heading--2">test3render</h2>
@@ -69,38 +69,44 @@ export default function ExampleComponent() {
 
   </li>
   <li className="description" id="test5">
-    <h2 className="heading heading--2">test5</h2>
+    <h2 className="heading heading--2">FhFF</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
-    <img src="https://dl3.pushbulletusercontent.com/oNJ8YCFWKx4ouxgaAi9bkSTYOnKbIOle/fhffLogoResize300.jpg" alt="FhFF logo" style={{position: 'absolute', top: '0', left: '0', width: '73%',padding:'0 7px 5px 0', height: '100%'}}/>
+    <img src="https://dl3.pushbulletusercontent.com/oNJ8YCFWKx4ouxgaAi9bkSTYOnKbIOle/fhffLogoResize300.jpg" alt="FhFF logo" style={{position: 'absolute', top: '0', left: '0', width: '67%',padding:'0 7px 5px 0', height: '100%'}}/>
     </div>
     <p>I created a Custom Logo with <code>Adobe Illustrator</code> for a Non-Profit Foundation In Miami, Florida. Focused on helping homeless, hungry &amp; in danger cats/kittens.Feeding Homeless Felines Foundation. This is<code>Vector Art</code>. It can be resized to the size of a building and it will keep its perfect crispness.</p>
 
     
   </li>
-  <li className="description" id="test7">
-    <h2 className="heading heading--2">test7</h2>
-    <p>Invoked immediately before rendering when new props or state are being received. This method is not called for the initial render.</p>
+  <li className="description" id="test6">
+    <h2 className="heading heading--2">Vee Media</h2>
+   <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
+    <img src="https://dl3.pushbulletusercontent.com/Rw5unHWUsnMSglOahdYT7lAs4u5VHAL7/eyeLogoport.jpg" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '54%',padding:'0 7px 5px 0', height: '100%'}}/>
+    </div>
+    <p>I created a Custom Logo with <code>Adobe Illustrator</code> for a New Media Company Looking to put a more Professional Foot forward and focus on Brand Awareness</p>
 
-    <p>Use this as an opportunity to perform preparation before an update occurs.</p>
   </li>
-  <li className="description" id="test8">
-    <h2 className="heading heading--2">test8</h2>
-    <p>Invoked immediately after the component's updates are flushed to the DOM. This method is not called for the initial render.</p>
-
-    <p>Use this as an opportunity to operate on the DOM when the component has been updated.</p>
+  <li className="description" id="test7">
+    <h2 className="heading heading--2">Inner G Web Design</h2>
+   <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
+    <img src="https://dl3.pushbulletusercontent.com/rquIJdZSAbNNJrVnnFDY1xTQU5XOFNm7/gqOuterFinal.jpg" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '54%',padding:'0 7px 5px 0', height: '100%'}}/>
+    </div>
+    <p>I created a Custom Background from the client's original photography. Color Correction, Design and Image Mask to add Galaxy Feeling <code>Adobe Photoshop</code></p>
   </li>
   <li className="description" id="test9">
     <h2 className="heading heading--2">test9</h2>
-    <p>Invoked immediately before a component is unmounted from the DOM.</p>
-
-    <p>Perform any necessary cleanup in this method, such as invalidating timers or cleaning up any DOM elements that were created in <code>test4</code>.</p>
+    <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
+    <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031702/candycaniganlogo.png" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '64%',padding:'0 7px 5px 0', height: '100%'}}/>
+    </div>
+    <p>I created a Custom Lo2go with <code>Adobe Illustrator</code> for a New Media Company Looking to put a more Professional Foot forward and focus on Brand Awareness</p>
   </li>
 
   {/* start head description  */}
   <li className="description description--placeholder">
     <h2 className="heading heading--2">Logan J Wilson's Work</h2>
-    <p style={{color:'#e83e8c'}}>Click on a project below to see a description &amp; project overview.</p>
-    <p>See My Work, But want to know more? Download <a href="#">My Resume</a>, as a PDF <a href="#"></a>.</p>
+    <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
+    <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031714/chrisnnicolebby.jpg" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '75%',padding:'0 7px 5px 0', height: '100%'}}/>
+    </div>
+    <p>I created a Custom Lo2go with <code>Adobe Illustrator</code> for a New Media Company Looking to put a more Professional Foot forward and focus on Brand Awareness</p>
   </li>
   <li className="description__close"><a href="#">×</a></li>
 </ul>
@@ -108,23 +114,23 @@ export default function ExampleComponent() {
 <div className="lanes">
   <ul className="lane">
     <li className="lane__title">Websites + UX/UI</li>
-    <li className="lane__item"><a className="step" href="#loganTest1">loganTest1</a></li>
-    <li className="lane__item"><a className="step" href="#test2">test2</a></li>  
-   <li className="lane__item"><a className="step" href="#test3">test3</a></li>
-    <li className="lane__item"><a className="step" href="#test4">test4</a></li>  
+    <li className="lane__item"><a className="step" href="#loganTest1">Inner G Health</a></li>
+    <li className="lane__item"><a className="step" href="#test2">Feeding Felines</a></li>  
+   <li className="lane__item"><a className="step" href="#test3">App Interface</a></li>
+    <li className="lane__item"><a className="step" href="#test4">E-commerce Interface</a></li>  
   </ul>
 
   <ul className="lane">
-<li className="lane__title">Logo Design &amp;<br/> Graphic Design</li>   <li className="lane__item"><a className="step" href="#test5">test5</a></li>
-    <li className="lane__item"><a className="step" href="#test6">test6</a></li>
-    <li className="lane__item"><a className="step" href="#test7">test7</a></li>  
-    <li className="lane__item"><a className="step" href="#render2">render2</a></li>
-    <li className="lane__item"><a className="step" href="#test8">test8</a></li>  
+<li className="lane__title">Logo Design &amp;<br/> Graphic Design</li>   <li className="lane__item"><a className="step" href="#test5">FhFF</a></li>
+    <li className="lane__item"><a className="step" href="#test6">Vee Logo</a></li>
+    <li className="lane__item"><a className="step" href="#test7">Inner G BG</a></li>  
+    <li className="lane__item"><a className="step" href="#render2">Nicole &amp; Chris Baby Shower</a></li>
+    {/* <li className="lane__item"><a className="step" href="#test8">test8</a></li>   */}
   </ul>
 
   <ul className="lane">
-    <li className="lane__title">View My Github</li>
-    <li className="lane__item"><a className="step" href="#test9">test9</a></li>  
+    <li className="lane__title">More...</li>
+    <li className="lane__item"><a className="step" href="#test9">Canigan Logo</a></li>  
   </ul>
 </div>
 

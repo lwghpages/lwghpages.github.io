@@ -15,8 +15,8 @@ export default function Home() {
     <Interactive
       as="a"
       {...s.link}
-      href="https://github.com/rafrex/spa-github-pages#readme"
-    >{text}</Interactive>
+      href="https://github.com/loganwdev"
+    >Github</Interactive>
   );
 
   return (
