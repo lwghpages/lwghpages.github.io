@@ -124,7 +124,7 @@ export default function ExampleComponent() {
 <li className="lane__title">Logo Design &amp;<br/> Graphic Design</li>   <li className="lane__item"><a className="step" href="#test5">FhFF</a></li>
     <li className="lane__item"><a className="step" href="#test6">Vee Logo</a></li>
     <li className="lane__item"><a className="step" href="#test7">Inner G BG</a></li>  
-    <li className="lane__item"><a className="step" href="#render2">Nicole &amp; Chris Baby Shower</a></li>
+    {/* <li className="lane__item"><a className="step" href="#render2">Nicole &amp; Chris Baby Shower</a></li> */}
     {/* <li className="lane__item"><a className="step" href="#test8">test8</a></li>   */}
   </ul>
 
