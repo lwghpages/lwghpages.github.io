@@ -45,7 +45,7 @@ export default function ExampleComponent() {
     <h2 className="heading heading--2">Inner G</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}><iframe src="https://www.loom.com/embed/8f3ad682e2d348eb8eab1db907d70c88" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}></iframe></div>
 
-    <p>I created a Website for a friendly neighbor hood Massage Parlor. Integrating online scheduling through SQUARE. Technologies used - <code>HTML,CSS & JavaScript, MailChimp + Google Maps API</code></p>
+    <p>I created a Website for a friendly neighborhood Massage Establishment. Integrating online scheduling. Technologies used - <code>HTML,CSS & JavaScript, MailChimp + Google Maps API</code></p>
   </li>
   <li className="description" id="test2">
     <h2 className="heading heading--2">FHFF</h2>
@@ -92,10 +92,18 @@ export default function ExampleComponent() {
     </div>
     <p>I created a Custom Background from the client's original photography. Color Correction, Design and Image Mask to add Galaxy Feeling <code>Adobe Photoshop</code></p>
   </li>
+  <li className="description" id="nicole">
+    <h2 className="heading heading--2">Nicole &amp; Chris Baby Shower</h2>
+   <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
+    <img src="https://dl3.pushbulletusercontent.com/rfjh2Rg4qOoe5tdPuzxSBQue7fWjgNKS/nicolenChrisShow.jpg" alt="Nicole and Chris" style={{position: 'absolute', top: '0', left: '0', width: '75%',padding:'0 7px 5px 0', height: '100%'}}/>
+    </div>
+    <p>I created a Custom Email (HTML) E-Invite with <code>HTML, CSS, Adobe Illustrator &amp; Photoshop</code> for My Sister's Baby Shower. I tracked the RSVP's with <code>RSVPify.com</code></p>
+
+  </li>
   <li className="description" id="test9">
     <h2 className="heading heading--2">Adobe Illustrator</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
-    <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031702/candycaniganlogo.png" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '64%',padding:'0 7px 5px 0', height: '100%'}}/>
+    <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031702/candycaniganlogo.png" alt="Canigan logo" style={{position: 'absolute', top: '0', left: '0', width: '68%',padding:'0 7px 5px 0', height: '100%'}}/>
     </div>
     <p>I created a Custom Logo with <code>Adobe Illustrator</code> for a my Mother. Looking to put a brand to her likeness. Got to Love Her. </p>
   </li>
@@ -104,9 +112,10 @@ export default function ExampleComponent() {
   <li className="description description--placeholder">
     <h2 className="heading heading--2">Logan J Wilson's Work</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
+    <code>See my projects below</code>
     {/* <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031714/chrisnnicolebby.jpg" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '75%',padding:'0 7px 5px 0', height: '100%'}}/> */}
     </div>
-    <p><code>See my projects below</code></p>
+    <p></p>
   </li>
   <li className="description__close"><a href="#">×</a></li>
 </ul>
@@ -124,7 +133,7 @@ export default function ExampleComponent() {
 <li className="lane__title">Logo Design &amp;<br/> Graphic Design</li>   <li className="lane__item"><a className="step" href="#test5">FhFF</a></li>
     <li className="lane__item"><a className="step" href="#test6">Vee Logo</a></li>
     <li className="lane__item"><a className="step" href="#test7">Inner G BG</a></li>  
-    {/* <li className="lane__item"><a className="step" href="#render2">Nicole &amp; Chris Baby Shower</a></li> */}
+    <li className="lane__item"><a className="step" href="#nicole">Nicole &amp; Chris Baby Shower</a></li>
     {/* <li className="lane__item"><a className="step" href="#test8">test8</a></li>   */}
   </ul>
 
