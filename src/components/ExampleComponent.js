@@ -42,19 +42,19 @@ export default function ExampleComponent() {
 
 <ul className="descriptions">
   <li className="description" id="loganTest1">
-    <h2 className="heading heading--2">Logan 1 test</h2>
+    <h2 className="heading heading--2">Inner G</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}><iframe src="https://www.loom.com/embed/8f3ad682e2d348eb8eab1db907d70c88" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}></iframe></div>
 
     <p>I created a Website for a friendly neighbor hood Massage Parlor. Integrating online scheduling through SQUARE. Technologies used - <code>HTML,CSS & JavaScript, MailChimp + Google Maps API</code></p>
   </li>
   <li className="description" id="test2">
-    <h2 className="heading heading--2">test2</h2>
+    <h2 className="heading heading--2">FHFF</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}><iframe src="https://www.loom.com/embed/6bf30a107b7c4ec68d6ea3c5b4aeb50d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}></iframe></div>
 
     <p>I created a Website &amp; Custom Logo for a Non-Profit Foundation In Miami, Florida . Focused on helping homeless, hungry &amp; in danger cats/kittens.Feeding Homeless Felines Foundation. Integrating online donation platform through DonationBox. Technologies used - <code>HTML,CSS &amp; JavaScript, GSuite + DonationBox, light Ruby on Rails to implement DonationBox, Hotjar.js(Heat Map &amp; Analytics, Adobe Illustrator &amp; Photoshop</code></p>
   </li>
   <li className="description" id="test3">
-    <h2 className="heading heading--2">test3render</h2>
+    <h2 className="heading heading--2">App Interface</h2>
    <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}><iframe src="https://www.loom.com/embed/f61bec9a24794e6fbcfd288eeedb8e0f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}></iframe></div>
 
     <p>I created a website for personal use with a Cool Nav bar. (CSS Animations) to show off my skills for a possible tech layout. <code>HTML,CSS &amp; JavaScript, Image Masking, Adobe Photoshop, Adobe Illustrator</code></p>
@@ -62,7 +62,7 @@ export default function ExampleComponent() {
     
   </li>
   <li className="description" id="test4">
-    <h2 className="heading heading--2">test4</h2>
+    <h2 className="heading heading--2">E-commerce</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}><iframe src="https://www.loom.com/embed/a293dbf4182e4133aa4b90dfad947d20" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}></iframe></div>
 
     <p>I crafted a website for personal use with a nice UX/UI interactions and tons of space for "dynamically loaded items &amp;sale prices." Form for MailChimp Email Collection + Blast Campaign (CSS Animations) to <code>HTML,CSS3 &amp; JavaScript, MailChimp, Adobe Photoshop, Adobe Illustrator</code></p>
@@ -88,25 +88,25 @@ export default function ExampleComponent() {
   <li className="description" id="test7">
     <h2 className="heading heading--2">Inner G Web Design</h2>
    <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
-    <img src="https://dl3.pushbulletusercontent.com/rquIJdZSAbNNJrVnnFDY1xTQU5XOFNm7/gqOuterFinal.jpg" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '54%',padding:'0 7px 5px 0', height: '100%'}}/>
+    <img src="https://dl3.pushbulletusercontent.com/rquIJdZSAbNNJrVnnFDY1xTQU5XOFNm7/gqOuterFinal.jpg" alt="G bg logo" style={{position: 'absolute', top: '0', left: '0', width: '54%',padding:'0 7px 5px 0', height: '100%'}}/>
     </div>
     <p>I created a Custom Background from the client's original photography. Color Correction, Design and Image Mask to add Galaxy Feeling <code>Adobe Photoshop</code></p>
   </li>
   <li className="description" id="test9">
-    <h2 className="heading heading--2">test9</h2>
+    <h2 className="heading heading--2">Adobe Illustrator</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
     <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031702/candycaniganlogo.png" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '64%',padding:'0 7px 5px 0', height: '100%'}}/>
     </div>
-    <p>I created a Custom Lo2go with <code>Adobe Illustrator</code> for a New Media Company Looking to put a more Professional Foot forward and focus on Brand Awareness</p>
+    <p>I created a Custom Logo with <code>Adobe Illustrator</code> for a my Mother. Looking to put a brand to her likeness. Got to Love Her. </p>
   </li>
 
   {/* start head description  */}
   <li className="description description--placeholder">
     <h2 className="heading heading--2">Logan J Wilson's Work</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
-    <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031714/chrisnnicolebby.jpg" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '75%',padding:'0 7px 5px 0', height: '100%'}}/>
+    {/* <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031714/chrisnnicolebby.jpg" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '75%',padding:'0 7px 5px 0', height: '100%'}}/> */}
     </div>
-    <p>I created a Custom Lo2go with <code>Adobe Illustrator</code> for a New Media Company Looking to put a more Professional Foot forward and focus on Brand Awareness</p>
+    <p><code>See my projects below</code></p>
   </li>
   <li className="description__close"><a href="#">×</a></li>
 </ul>
