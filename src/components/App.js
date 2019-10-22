@@ -35,13 +35,13 @@ export default function App() {
       <div style={s.creditLine} style={{padding: '1em 2em'}}style={{padding: '1em 2em'}}>
         <Interactive
           as="a"
-          href="http://www.loganjwilson.com"
+          href="https://dribbble.com/logi500"
           interactiveChild
           focus={{}}
           touchActive={{}}
           touchActiveTapOnly
         >
-          This is built in React.js <span {...s.childLink}>Logan Wilson</span>
+         Check out my Dribbble <span {...s.childLink}>My site is built with React.js.</span>
         </Interactive>
       </div>
       <div style={{padding:'1em 2em'}}>
