@@ -40,7 +40,7 @@ export default function App() {
           focus={{}}
           touchActive={{}}
           touchActiveTapOnly
-        >
+        > 
          Check out my Dribbble <span {...s.childLink}>My site is built with React.js.</span>
         </Interactive>
       </div>
