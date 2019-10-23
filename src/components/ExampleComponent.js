@@ -112,7 +112,7 @@ export default function ExampleComponent() {
   <li className="description description--placeholder">
     <h2 className="heading heading--2">Logan J Wilson's Work</h2>
     <div style={{position: 'relative',paddingBottom: '56.25%', height: '0'}}>
-    <code>Click on a project below to begin</code>
+    <code>See my projects below</code>
     {/* <img src="https://cdn.dribbble.com/users/2509004/screenshots/5031714/chrisnnicolebby.jpg" alt="V logo" style={{position: 'absolute', top: '0', left: '0', width: '75%',padding:'0 7px 5px 0', height: '100%'}}/> */}
     </div>
     <p></p>
