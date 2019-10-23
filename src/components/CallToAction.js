@@ -13,7 +13,7 @@ export default class CallToAction extends Component {
               My Work &amp; What I Can Do For / With Your Business</h3>
           </div>
           <div className="col-lg-6 col-md-4 text-center">
-            <a href="https://loganwdev.github.io/loganWilsonResumev3.pdf" className="btn btnSeeWork" style={{backgroundColor:'#001f61',color:'white',}} >Download My Resume<span style={{fontSize:'0.75em',padding:'0 7px 0 7px'}}> (PDF)</span></a>
+            <a href="https://loganwdev.github.io/Resume(1).pdf" className="btn btnSeeWork" style={{backgroundColor:'#001f61',color:'white',}} >Download My Resume<span style={{fontSize:'0.75em',padding:'0 7px 0 7px'}}> (PDF)</span></a>
           </div>
         </div>
       </div>

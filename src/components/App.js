@@ -52,7 +52,7 @@ export default function App() {
       <div style={{padding:'1em 2em'}}>
       <Interactive
         as="a"
-        href="https://loganwdev.github.io/loganWilsonResumev3.pdf"
+        href="https://loganwdev.github.io/Resume(1).pdf"
         style={s.repoLink}
         {...s.link}
         
