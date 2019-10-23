@@ -30,7 +30,7 @@ export default class HeadingHero extends Component {
               <p style={{lineHeight:'1.5',fontSize: '1.2em'}}><strong>Engineering solutions to make certain areas of your life a little better, focused, and refined.</strong> I've been waking up early and staying up late to hit the end goal of expert programmer.
 
 
-<span style={{color:'#09f'}}> My work is not tied to tech trends.. I am a problem solver and entreprenuer. My unique value comes from my ability to handle ambiguity. </span>For example I work to first- understand the needs of the problem rather than jumping to a solution and using whatever cool things in my toolbox or whatever trend I see.
+<span style={{color:'#09f'}}> My work is not tied to tech trends.. I am a problem solver and entrepreneur. My unique value comes from my ability to handle ambiguity. </span>For example I work to first- understand the needs of the problem rather than jumping to a solution and using whatever cool things in my toolbox or whatever trend I see.
 </p>
 
 
