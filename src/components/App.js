@@ -40,13 +40,13 @@ export default function App() {
           focus={{}}
           touchActive={{}}
           touchActiveTapOnly
-<<<<<<< HEAD
+
         > 
          Check out my Dribbble <span {...s.childLink}>My site is built with React.js.</span>
-=======
+
         >
           This is built in React.js <span {...s.childLink}>Logan Wilson</span>
->>>>>>> parent of 185a255... chnges to verbage n build
+
         </Interactive>
       </div>
       <div style={{padding:'1em 2em'}}>
