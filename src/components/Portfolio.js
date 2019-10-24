@@ -9,7 +9,7 @@ export default class Portfolio extends Component {
  
 				<div className="grid">
 					<figure className="effect-kira">
-						<img className='fullWidthImg' src="https://dl3.pushbulletusercontent.com/SicpQTn4f5tnkrAoqhIrdw12Ag0vmTKO/blueblob004.jpg" alt="blueblob"/>
+						<img className='fullWidthImg' src="https://dl3.pushbulletusercontent.com/uaJasGyN1qVwvhlJ08ui6tzSdR02fn2V/blueblob004finCompress.jpg" alt="blueblob"/>
 						<figcaption>
 							<h2 style={{maxWidth:'88vw',color:'#333'}}>My &nbsp;<span style={{color:'#49f'}}>Resume</span></h2>
 							<p>
@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
 				</div>
         <div className="grid">
 					<figure className="effect-apollo">
-						<img className='fullWidthImg' src="https://dl3.pushbulletusercontent.com/Cc2uFVdz6dtf8MwdRiCiq0yDBmIdHDAv/blueroomhq2.jpg" alt="blue Hq room with lights"/>
+						<img className='fullWidthImg' src="https://dl3.pushbulletusercontent.com/NCw597AiQSilOjZSEjZvoVAil9CVnxaS/blueroomhq2finCompress.jpg" alt="blue Hq room with lights"/>
 						<figcaption>
 							<h2> <span style={{textDecoration:'underline',textTransform:'lowercase'}}>My &nbsp;Recent&nbsp; Work</span>
               <br/>

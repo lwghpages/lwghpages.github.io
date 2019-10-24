@@ -31,7 +31,7 @@ export default function Home() {
       </div>
         <img className='blobCornerFace' src="https://dl3.pushbulletusercontent.com/HBUWmR1BehX0wAeLybDxqCqBPzcgFqVV/blobcornerfacefinCompress.jpg" alt="blob" style={{maxWidth: '27vw',height: 'auto',}} />
 
-        <img src="https://dl3.pushbulletusercontent.com/IYTBjNAIDrX0fkzJndnHlYQPiWn0HWeH/loganlognetfl3.png" style={{minWidth:'100px',maxWidth: '130px',height: 'auto',marginLeft:'23%',marginTop: '1.32em',}}  alt="logo"/>
+        <img src="https://dl3.pushbulletusercontent.com/pCKTjbBDfsuRJQOidMLRtl3y2SUhnhoP/loganlognetfl4Compress.png" style={{minWidth:'100px',maxWidth: '130px',height: 'auto',marginLeft:'23%',marginTop: '1.32em',}}  alt="logo"/>
   
 
       <HeadingHero />
