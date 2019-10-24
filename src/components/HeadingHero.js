@@ -35,8 +35,7 @@ export default class HeadingHero extends Component {
 
 
 <p style={{lineHeight:'1.5',fontSize: '1.2em'}}><span style={{color:'#0d9'}}>I am business minded.</span> <span style={{color:'violet'}}>-</span> cognisant of how my actions, attitude &amp; quality of work can and will affect the big picture of the business.</p>
-              {/* <img src="https://placehold.it/50x50.jpg" alt="" className="signature"/> */}
-              
+              {/* <img src="https://placehold.it/50x50.jpg" alt="" className="signature"/> */} 
               <Interactive
           as="a"
           href="/work"
