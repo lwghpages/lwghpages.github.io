@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+ 
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"> -->
+  <title>Title page</title>
+
+
+
+<style>
+ @import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+@keyframes pointing {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes grow {
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes sendCTA {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  60% {
+    transform: translate(10px, -10px);
+  }
+}
+@keyframes menuCircular {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  color: #000;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  background: none;
+  padding: 8px 12px;
+  text-align: center;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  transition-property: background, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.image-container {
+  text-align: center;
+}
+.image-container img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+}
+
+.pre-header {
+  background: linear-gradient(to right, #5FB84C 25%, #004674 25%, #004674 75%, #0085D4 75%, #0085D4 85%, #015A9E 85%, #015A9E 100%);
+}
+.pre-header a {
+  display: block;
+  color: #fafafa;
+  font-size: 0.7rem;
+  padding: 6px 12px;
+  background: #22A12C;
+}
+@media (max-width: 500px) {
+  .pre-header li:last-child a {
+    background: #004674;
+  }
+}
+@media (max-width: 1024px) {
+  .pre-header li:first-child a {
+    background: #5FB84C;
+  }
+}
+
+.header-links {
+  display: flex;
+}
+
+.upper {
+  padding: 10px 0;
+}
+
+.logo {
+  width: 108px;
+  height: 30px;
+  background: url(https://dl3.pushbulletusercontent.com/WXkybhcJWFI3saPg7suFvXtz3uGYPrzw/ymcaPng2.png) center center/contain no-repeat;
+  margin: 0 auto;
+  float: left;
+}
+@media (min-width: 800px) {
+  .logo {
+    width: 130px;
+    height: 50px;
+    margin-left: 10px;
+  }
+}
+
+.misc-links {
+  position: relative;
+  float: right;
+}
+@media (max-width: 1024px) {
+  .misc-links {
+    padding-right: 10px;
+  }
+}
+.misc-links-btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+@media (min-width: 500px) {
+  .misc-links-btn {
+    display: none;
+  }
+}
+.misc-links-btn::before, .misc-links-btn::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 1px;
+  background: #999;
+  position: absolute;
+  left: calc(50% - 10px);
+  transition: transform 0.3s ease;
+}
+.misc-links-btn::before {
+  top: 10px;
+}
+.misc-links-btn::after {
+  bottom: 10px;
+}
+.misc-links-btn:hover {
+  background: #f1f1f1;
+}
+.misc-links-btn:hover ~ :nth-child(4) {
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+.misc-links-btn:hover::before {
+  transform: translate(-4px, 4px) rotate(45deg) scaleX(0.5);
+}
+.misc-links-btn:hover::after {
+  transform: translate(3px, -4px) rotate(-45deg) scaleX(0.5);
+}
+.misc-links-btn:hover ~ :nth-child(2) {
+  display: block;
+}
+.misc-links-btn:hover ~ :nth-child(3) {
+  display: block;
+}
+.misc-links-btn:hover ~ :nth-child(4) {
+  display: block;
+}
+.misc-links li {
+  float: left;
+}
+@media (max-width: 500px) {
+  .misc-links li:nth-child(2) {
+    display: none;
+    float: none;
+    background: #f1f1f1;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 120px;
+    z-index: 3;
+  }
+  .misc-links li:nth-child(3) {
+    display: none;
+    float: none;
+    background: #f1f1f1;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    width: 120px;
+    z-index: 2;
+  }
+  .misc-links li:nth-child(4) {
+    display: none;
+    float: none;
+    background: #f1f1f1;
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    width: 120px;
+    z-index: 1;
+  }
+}
+.misc-links li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 0.8rem;
+  color: #999;
+}
+@media (min-width: 500px) {
+  .misc-links li a {
+    width: 100px;
+  }
+}
+.misc-links li a:hover {
+  color: #5FB84C;
+}
+.misc-links .search-bar {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+@media (min-width: 800px) {
+  .misc-links .search-bar {
+    width: 150px;
+    border-bottom: 1px solid #d2d2d2;
+    cursor: text;
+  }
+}
+.misc-links .search-bar i {
+  float: right;
+  margin: 5px;
+  color: #999;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+}
+@media (max-width: 500px) {
+  .nav-links {
+    flex-flow: row wrap;
+  }
+}
+.nav-links > li {
+  width: calc(100%/3);
+}
+@media (min-width: 500px) {
+  .nav-links > li {
+    width: calc(100%/6);
+  }
+}
+@media (max-width: 1024px) {
+  .nav-links > li:hover > a::after {
+    display: block;
+  }
+}
+@media (min-width: 800px) {
+  .nav-links > li:hover .category-wrapper {
+    display: block;
+  }
+  .nav-links > li:hover .category-wrapper::after {
+    animation: menuCircular 1s ease forwards 0.25s;
+  }
+}
+.nav-links > li:hover .category-menu > li {
+  animation: fadeIn 0.3s ease forwards;
+}
+.nav-links > li:hover .category-menu > li:nth-child(1) {
+  animation-delay: 0.45s;
+}
+.nav-links > li:hover .category-menu > li:nth-child(2) {
+  animation-delay: 0.55s;
+}
+.nav-links > li:hover .category-menu > li:nth-child(3) {
+  animation-delay: 0.65s;
+}
+.nav-links > li:hover .category-menu > li:nth-child(4) {
+  animation-delay: 0.75s;
+}
+.nav-links > li:hover ~ .tail {
+  animation: fadeIn 0.3s cubic-bezier(0.95, 0.05, 0.795, 0.035) forwards;
+  transition-property: transform, border-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+.nav-links > li:nth-child(1) > a::after, .nav-links > li:nth-child(1) .category-wrapper::after {
+  background: #f90;
+}
+.nav-links > li:nth-child(1):hover ~ .tail {
+  transform: translateX(0px);
+  border-color: #f90;
+}
+.nav-links > li:nth-child(2) > a::after, .nav-links > li:nth-child(2) .category-wrapper::after {
+  background: #09f;
+}
+.nav-links > li:nth-child(2):hover ~ .tail {
+  transform: translateX(170.6666666667px);
+  border-color: #09f;
+}
+.nav-links > li:nth-child(3) > a::after, .nav-links > li:nth-child(3) .category-wrapper::after {
+  background: #0085D4;
+}
+.nav-links > li:nth-child(3):hover ~ .tail {
+  transform: translateX(341.3333333333px);
+  border-color: #0085D4;
+}
+.nav-links > li:nth-child(4) > a::after, .nav-links > li:nth-child(4) .category-wrapper::after {
+  background: #015A9E;
+}
+.nav-links > li:nth-child(4):hover ~ .tail {
+  transform: translateX(512px);
+  border-color: #015A9E;
+}
+.nav-links > li:nth-child(5) > a::after, .nav-links > li:nth-child(5) .category-wrapper::after {
+  background: #5FB84C;
+}
+.nav-links > li:nth-child(5):hover ~ .tail {
+  transform: translateX(682.6666666667px);
+  border-color: #5FB84C;
+}
+.nav-links > li:nth-child(6) > a::after, .nav-links > li:nth-child(6) .category-wrapper::after {
+  background: #22A12C;
+}
+.nav-links > li:nth-child(6):hover ~ .tail {
+  transform: translateX(853.3333333333px);
+  border-color: #22A12C;
+}
+.nav-links > li > a {
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .nav-links > li > a {
+    text-align: left;
+  }
+}
+.nav-links > li > a:hover {
+  color: #333;
+}
+@media (min-width: 800px) {
+  .nav-links > li > a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    display: none;
+  }
+}
+.nav-links > li > a div {
+  width: 100%;
+}
+.nav-links .link-caption {
+  color: #999;
+  font-size: 0.6rem;
+  display: none;
+}
+@media (min-width: 800px) {
+  .nav-links .link-caption {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .nav-links .link-caption {
+    font-size: 0.8rem;
+  }
+}
+.nav-links .tail {
+  border-bottom: 3px solid #5FB84C;
+  width: calc(100%/6);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transform: translate3d(-100%,300px,0);
+  pointer-events: none;
+  display: none;
+}
+@media (min-width: 1024px) {
+  .nav-links .tail {
+    display: block;
+  }
+}
+
+.category-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-family: "Raleway", sans-serif;
+  z-index: 1;
+  overflow: hidden;
+  display: none;
+  margin-top: 20px;
+}
+.category-wrapper::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 1600px;
+  height: 1600px;
+  transform: scale(0);
+  will-change: "transform";
+}
+.category-menu {
+  display: flex;
+  position: relative;
+  z-index: 3;
+}
+.category-menu > li {
+  flex: 1;
+  opacity: 0;
+  padding: 40px 10px;
+}
+.category-menu > li:first-child {
+  padding-left: 20px;
+}
+.category-menu > li:last-child {
+  padding-right: 20px;
+}
+.category-menu > li h3 {
+  padding-bottom: 10px;
+  color: #fafafa;
+}
+.category-menu .promo {
+  text-align: center;
+  padding: 40px;
+  font-size: 0.8rem;
+  color: #fafafa;
+}
+.category-menu .promo-cap {
+  margin: 6px 0 12px;
+}
+.category-menu .promo-btn {
+  width: 100%;
+  margin: 0 auto;
+  color: #fafafa;
+  border-color: #fafafa;
+}
+.category-menu .promo-btn:hover {
+  background: #fafafa;
+  color: #333;
+}
+.category-links li {
+  text-align: left;
+}
+.category-links a {
+  display: block;
+  padding: 4px 0 4px 20px;
+  color: #fafafa;
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+.category-links a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(50% - 4px);
+  left: 0;
+  border: 4px solid transparent;
+  border-left-color: #fafafa;
+  display: none;
+  animation: pointing 0.6s ease-in-out 0.3s infinite;
+}
+.category-links a:hover {
+  transform: translateX(4px);
+}
+.category-links a:hover::after {
+  display: block;
+}
+
+@media all and (min-width: 768px) {
+  .category-wrapper::after {
+    width: 2400px;
+    height: 2400px;
+  }
+}
+.search-ui {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+  opacity: 0;
+}
+.search-ui_show {
+  display: block;
+  animation: fadeIn 0.3s ease forwards;
+}
+.search-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 50px;
+  padding-right: 50px;
+}
+@media (min-width: 800px) {
+  .search-wrapper {
+    width: 70%;
+    height: 100px;
+    padding-right: 100px;
+  }
+}
+.search-wrapper button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 0;
+  background: none;
+  font-size: 2rem;
+  color: #999;
+  cursor: pointer;
+}
+@media (min-width: 800px) {
+  .search-wrapper button {
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+  }
+}
+.search-wrapper button:hover i {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.search-wrapper [type="text"] {
+  font-size: 4vw;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-width: 0 0 3px 0;
+  border-color: transparent;
+}
+.search-wrapper [type="text"]:focus {
+  outline: none;
+}
+.search-wrapper [type="text"]:focus + .search-line {
+  transform: scaleX(1);
+}
+.search-wrapper [type="text"]:focus ~ button {
+  color: #5FB84C;
+}
+.search-line {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  background: #5FB84C;
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.search-close {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+.search-close::before, .search-close::after {
+  content: "";
+  display: block;
+  transform: translate(-50%, -50%) scale(0.5);
+  animation: grow 0.3s ease forwards 0.3s;
+  background: #999;
+  transition: background 0.2s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.search-close::before {
+  width: 5px;
+  height: 35px;
+}
+.search-close::after {
+  width: 35px;
+  height: 5px;
+}
+.search-close:hover::before, .search-close:hover::after {
+  background: #333;
+}
+
+@media screen and (max-width:500px){
+  nav#home-nav {display: none;}
+  }
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar */
+}
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+body {
+  line-height: 1.4;
+}
+
+.centered {
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+@media screen and (min-width: 52em) {
+  .centered {
+    max-width: 52em;
+  }
+}
+/*--------------------------------------------------------------
+Header styles minus menu
+--------------------------------------------------------------*/
+.masthead {
+  background: hsl(0, 0%, 90%);
+}
+
+.site-title {
+  margin: 0 0 1em;
+  padding: 1em 0;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (min-width: 44.44em) {
+  .site-title {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .site-title {
+    font-size: 2.5em;
+  }
+}
+
+.site-title a {
+  color: hsl(5, 45%, 95%);
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  text-decoration: underline;
+}
+
+/* Base styles */
+.site-title {
+  margin-bottom: 0;
+}
+
+.main-menu {
+  padding: .4em 1em;
+  color: white;
+  background: hsl(0, 0%, 20%);
+}
+
+.post-content {
+  padding: 0 1.4em 1.4em;
+}
+
+.sidebar {
+  padding: .5em 1.4em 1em;
+  background: hsl(0, 0%, 90%);
+  overflow: hidden;
+}
+
+.example-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.example-menu a {
+  display: block;
+  padding: .4em 0;
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.example-menu a:hover,
+.example-menu a:focus {
+  padding: .4em 1em;
+  background: hsl(0, 0%, 20%);
+  color: white;
+}
+
+.footer-area {
+  padding: .4em 1em;
+  text-align: center;
+  background: hsl(0, 0%, 75%);
+}
+/* Sidebar switcher buttons */
+
+@media screen and (max-width: 40em) {
+  /* Hide switcher on small screens */
+  
+  .sidebar-switcher {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .sidebar-switcher {
+    position: absolute;
+    right: 0;
+    padding: .4em 1em;
+    color: hsl(0, 0%, 40%);
+  }
+  .sidebar-switcher a {
+    color: hsl(0, 0%, 40%);
+    padding-left: .4em;
+  }
+  .sidebar-switcher a:hover,
+  .sidebar-switcher a:focus {
+    color: hsl(0, 0%, 20%);
+  }
+}
+
+/* flexbox styles */
+@media screen and (min-width: 40em) {
+  .outer-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    display: flex;
+  }
+  .post-content {
+    max-width: 40em;
+    margin: 0 auto;
+  }
+  .main-area {
+    flex: 1 1 auto;
+    order: 1;
+  }
+  .sidebar {
+    flex: 0 0 12em;
+    order: 2;
+  }
+  .sidebar-left {
+    order: 0;
+  }
+  .no-sidebar {
+    flex-direction: column;
+  }
+  .hide {
+    flex: 0 0 0;
+    padding: 0;
+    color: hsla(0, 0%, 0%, 0);
+    transition: color .2s ease, flex .5s ease .3s, padding .5s ease .3s;
+  }
+  .hide a {
+    color: hsla(0, 0%, 0%, 0);
+  }
+} /* mq 40em */
+
+
+.module {
+  width: 48%;
+  min-height: 200px;
+  background: white;
+  position: relative;
+  float: left;
+  padding: 20px;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transform-origin: center center;
+}
+.module:nth-child(even) {
+  margin-right: 0;
+}
+.module.off-screen-top {
+  transform: translateY(-150px);
+  opacity: 0;
+}
+.module.off-screen-bottom {
+  transform: translateY(150px);
+  opacity: 0;
+}
+
+/*body {
+  background: url(https://s.cdpn.io/3/blurry-blue.jpg);
+  background-size: auto 100%;
+  background-attachment: fixed;
+  padding: 30px;
+}*/
+
+.come-in {
+  transform: translateY(0);
+  transition: all 0.8s ease-out;
+  opacity: 1;
+}
+
+.come-in:nth-child(odd) {
+  transition-duration: 0.5s;
+}
+
+.already-visible {
+  transform: translateY(0);
+  transition: none;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+</style>
+</head> 
+<body>
+
+<div id="app">
+  <div class="search-ui">
+    <div class="search-close" @click="toggleSearch"></div>
+    <div class="search-wrapper">
+      <input type="text" id="search" placeholder="Search This Site"/>
+      <div class="search-line"></div>
+      <button><i class="fa fa-search"></i></button>
+    </div>
+  </div>
+  <header>
+    <div class="pre-header">
+      <div class="container">
+        <ul class="header-links">
+          <li><a>REGISTER</a></li>
+          <li><a>TOUR</a></li>
+          <li><a>DONATE</a></li>
+          <li><a>JOIN</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="upper container">
+      <div class="logo"></div>
+      <ul class="misc-links">
+        <li class="misc-links-btn"></li>
+        <li><a href="##{id}">Help</a></li>
+        <li><a href="##{id}">Y-Locations</a></li>
+        <li><a href="##{id}">Contact Us</a></li>
+        <li class="search-bar" @click="toggleSearch"><i class="fa fa-search"></i></li>
+      </ul>
+    </div>
+    <nav class="container" id="home-nav">
+      <ul class="nav-links">
+        <li v-for="link in links"><a href="#{{$key}}">
+            <div class="link-title">{{link.title}}</div>
+            <div class="link-caption">{{link.caption}}</div></a>
+          <div class="category-wrapper container" v-if="link.categories">
+            <ul class="category-menu">
+              <li class="promo" v-if="link.promo">
+                <div class="image-container"><img src=" {{link.promo.image_url}}"/></div>
+                <div class="promo-cap">{{link.promo.caption}}</div>
+                <button class="button promo-btn">Apply Now</button>
+              </li>
+              <li v-for="category in link.categories">
+                <h3>{{category.cat_title}}</h3>
+                <ul class="category-links">
+                  <li v-for="cat_link in category.cat_links"><a>{{cat_link}}</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="tail"></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero" style="width: 100vw;padding: 7vh 0 0 0">
+      <img src="https://dl3.pushbulletusercontent.com/5Y9T5K5CVqLhN3gp8IDo3nuNqzx3WL99/2020-Metro-WinterCampaign-MembershipPush-HomepageHeroes-January-Bluesmaller.jpg" alt="blue 0 joiner" style="width: 100%">
+    </div>
+
+    <div class="content">
+    <main class="main-area">
+      <article class="post-content">
+       <section>
+  
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+  <div class="module">
+    <div class="logo"></div>
+  </div>
+
+  
+
+</section>
+      </article>
+    </main>
+
+    <div class="sidebar" style="">
+      <div class="squish-container">
+                  <h3 style="color: goldenrod;">Quick Links:</h3>
+          <nav class="example-menu">
+            <ul>
+              <li><a href="https://codepen.io/bugsyAlexander/pen/xGBaaG" target="_blank">Programs &amp; Schedules</a></li>
+              <li><a href="https://codepen.io/bugsyAlexander/pen/gpyYOo" target="_blank">Videos</a></li>
+              <li><a href="https://codepen.io/bugsyAlexander/pen/OVGLmo" target="_blank">Memebership</a></li>
+              <li><a href="https://codepen.io/bugsyAlexander/pen/xGNZao" target="_blank">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- .example-menu -->
+      </div>
+    </div>
+    <!-- .sidebar -->
+  </div>
+  <!-- .content -->
+
+
+  </main>
+
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+<script>var header_links = {
+        bank_with_us: {
+          title: 'About',
+          caption: 'The Y. So Much More', 
+          categories: {
+            0: {
+              cat_title: 'About us',
+              cat_links: [
+                'Our Cause',
+                'Our Mission',
+                'Our Mission',
+                'YMCA Center',
+                'Videos',
+                'Our History',
+                'Our Leadership',
+                'Diversity & Inclusion',
+                'News',
+                'Member Profiles'
+
+              ]
+            },
+            1: {
+              cat_title: 'Press',
+              cat_links: [
+                'Annual Reports',
+                'Pressroom',
+                'Jobs',
+                'Contact Us',
+                'Commitment to Integrity'
+              ]
+            },
+            2: {
+              cat_title: 'It is Good to belong',
+              cat_links: [
+                'Learn About one familys YMCA Journey to getting healthy and how it helped them get growing closer together.',
+                'Learn More'
+              ]
+            }
+          },
+          promo: {
+            caption: 'ymcasiizzle.',
+            image_url: "https://placehold.it/200x200.jpg"
+          }
+        },
+        ymca_programs: {
+          title: 'Program & Schedules',
+          caption: 'Try the Y Today.',  
+          categories: {
+            0: {
+              cat_title: 'Health & Wellness',
+              cat_links: [
+                'Swimming',
+                'Camps',
+                'Sports & Gymnastics',
+                'Family Programs'
+              ]
+            },
+            1: {
+              cat_title: 'Camps',
+              cat_links: [
+                'Summer Camp',
+                'Winter Camp',
+                'Family Camp',
+                'Group Retreats & Conferences',
+                'Camp Locations',
+                
+              ]
+            },
+            2: {
+              cat_title: 'Child Care',
+              cat_links: [
+                'Infant',
+                'Preschool',
+                'School Age'
+                
+              ]
+            }
+          },
+          promo: {
+            caption: 'ymcasiizzle.',
+            image_url: "https://placehold.it/200x200.jpg"
+          }
+        },
+        save: {
+          title: 'Membership',
+          caption: 'Strong Communities Start Here', 
+          categories: {
+            0: {
+              cat_title: 'Join The Y',
+              cat_links: [
+                'Join Today',
+                'YMCA Locations',
+                'Membership Benefits',
+                'Membership Information',
+
+              ]
+            },
+            1: {
+              cat_title: 'Savings',
+              cat_links: [
+               'Financial Assistance',
+                'Membership Policies & Procedures',
+                'Corporate Wellness Program'
+              ]
+            }
+          }
+        },
+        borrow: {
+          title: 'Get Involved',
+          caption: 'Our Strength Comes From Your Support', 
+          categories: {
+            0: {
+              cat_title: 'Get Involved',
+              cat_links: [
+                'Volunteer',
+                'Share Your Story',
+                'Donate',
+                'Vendor & Third Parties'
+              ]
+            },
+          }, promo: {
+            caption: 'ymcasiizzle.',
+            image_url: "https://placehold.it/200x200.jpg"
+          }
+        },
+        invest: {
+          title: 'Careers',
+          caption: 'Funds & Research',  
+          categories: {
+            0: {
+              cat_title: 'Careers',
+              cat_links: [
+                'Explore Careers at YMCA'
+              ]
+            },
+            
+          }, promo: {
+            caption: 'ymcasiizzle.',
+            image_url: "https://placehold.it/200x200.jpg"
+          }
+        },
+        insure: {
+          title: 'Donate',
+          caption: 'Join Us in Making an Impact', 
+          categories: {
+            0: {
+              cat_title: 'For A better Us',
+              cat_links: [
+                'Our Cause',
+                'Donate Your Time - Volunteer',
+                'Share Our Story',
+                
+              ]
+            },
+            
+          }, promo: {
+            caption: 'ymcasiizzle.',
+            image_url: "https://placehold.it/200x200.jpg"
+          }
+          
+        }
+      }
+
+new Vue({
+  el: '#app',
+  data: {
+    links: header_links
+    },
+    methods: {
+      toggleSearch: function() {
+        var $ui = $('.search-ui'),
+            show_c = 'search-ui_show',
+            $search = $('#search');
+        if($ui.hasClass(show_c)) {
+          $ui.removeClass(show_c);
+        } else {
+          $ui.addClass(show_c).find($search).focus();
+        }
+      }
+    }
+  })</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script> -->
+<script>(function($) {
+  $('a.sidebar-left-toggle').click(function () {
+    if (!$('.sidebar').hasClass('.sidebar-left')) {
+      $('.sidebar').addClass('sidebar-left');
+    }
+  });
+  
+  $('a.sidebar-right-toggle').click(function () {
+    if ($('.sidebar').hasClass('sidebar-left')) {
+      $('.sidebar').removeClass('sidebar-left');
+    }   
+  });
+  
+  $('a.no-sidebar-toggle').click(function () {
+    if (!$('.content').hasClass('no-sidebar')) {
+      $('.content').addClass('no-sidebar');
+    } else {
+      $('.content').removeClass('no-sidebar');
+    }
+  });
+  
+  $('a.hide-sidebar-toggle').click(function() {
+    if (!$('.sidebar').hasClass('hide')){
+      $('.sidebar').addClass('hide');
+    } else {
+      $('.sidebar').removeClass('hide');  
+    }
+  });
+  
+}(jQuery));</script>
+
+<script>
+  $.fn.offScreen = function(distance){
+    
+      var $t        = $(this),
+        $w        = $(window),
+        viewTop     = $w.scrollTop(),
+        viewBottom    = viewTop + $w.height(),
+        _top      = $t.offset().top - distance,
+        _bottom   = $t.offset().top + $t.height() + distance;
+   
+   return {
+     top: _bottom <= viewTop,
+     bottom: _top >= viewBottom
+   }
+  
+};
+    
+
+
+var win = $(window);
+
+var allMods = $(".module");
+
+allMods.each(function(i, el) {
+  var el = $(el);
+  if (!el.offScreen(150).bottom) {
+    el.addClass("already-visible"); 
+  } 
+});
+
+win.on("scroll resize",function(event) 
+{
+  
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (!el.offScreen(150).top && !el.offScreen(150).bottom) 
+    {
+      el.removeClass("already-visible off-screen-top off-screen-bottom"); 
+      el.addClass("come-in"); 
+    } 
+    else
+    {
+    
+        if(el.offScreen(150).top)
+        {
+            el.addClass("off-screen-top"); 
+        }
+        else
+        {
+            el.addClass("off-screen-bottom"); 
+        }
+    }
+  });//allMods.each()
+  
+});//win.scroll()
+
+win.trigger("scroll");
+
+
+
+</script>
+
+
+</body>
+</html>
