@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/css/uikit.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css">
+ 
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"> -->
+  <title>houses</title>
+
+
+
+<style>
+  /* Core Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+}
+
+.btn:hover {
+  background: #eaeaea;
+  color: #333;
+}
+
+/* Header Showcase */
+
+#showcase {
+  min-height: 450px;
+  color: #fff;
+  text-align: center;
+}
+
+#showcase .bg-image {
+  position: absolute;
+  background: #333
+    url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* Section A */
+
+#section-a {
+  background: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+/* Section B */
+
+#section-b {
+  padding: 2em 1em 1em;
+}
+
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+/* Section C */
+
+#section-c {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+}
+
+/* Section D / Boxes */
+
+#section-d .box {
+  padding: 2em;
+  color: #fff;
+}
+
+#section-d .box:first-child {
+  background: #2690d4;
+}
+
+/* Footer */
+
+#main-footer {
+  padding: 2em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+
+  #section-a .content-text {
+    columns: 2;
+    column-gap: 2em;
+  }
+
+  #section-a .content-text p {
+    padding-top: 0;
+  }
+
+  .content-wrap,
+  #section-b ul {
+    grid-column: 2/4;
+  }
+
+  .box,
+  #main-footer div {
+    grid-column: span 2;
+  }
+
+  #section-b ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #section-b li {
+    width: 31%;
+  }
+}
+
+
+
+
+.header {
+    height: 100vh;
+    background: 
+    linear-gradient(to right bottom, 
+     rgba(145,145,145, 0.12),
+     rgba(145,145,145, 0.32)),
+     url('https://dl3.pushbulletusercontent.com/FEJD2RpS576J7PNwBB3c2quP8G9U4Um5/toast.jpg');
+
+    
+  background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.brand-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.brand { font-size: 20px; }
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 30px;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7.4px;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+  font-size: 14px;
+}
+
+   .button-fixed {
+      background: scroll 0 0  lightgrey;
+      color: black;
+      left: 90%;
+      position: fixed;
+      top: 600px;
+      z-index: 1;
+      width: 100px;
+    }
+
+@media (min-width: 320px) and (max-width: 380px) {
+     .button-fixed {
+      background: scroll 0 0  lightgrey;
+      color: black;
+      left: 70%;
+      position: fixed;
+      top: 415px;
+      z-index: 1;
+      width: 100px;
+    }
+
+  }
+
+@media (min-width: 381px) and (max-width: 1024px)  {
+  
+    .button-fixed {
+      background: scroll 0 0  lightgrey;
+      color: black;
+      left: 70%;
+      position: fixed;
+      top: 570px;
+      z-index: 1;
+      width: 100px;
+    }
+
+  
+}
+
+
+#hero-btn{
+  background-color: skyblue;
+}
+
+#hero-btn {
+    transition: all ease 3000;
+    animation: btnFade 2s linear;
+    animation-fill-mode:  forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+}
+@keyframes btnFade {
+  0%{
+    background-color: inherit;
+  }
+  32%{background-color: orange;
+  }
+
+  100%{
+    background-color: #ffbf00;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%233e5bc9' fill-opacity='0.16' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+}
+
+
+
+</style>
+</head>
+<body>
+ 
+<header class="header">
+  <img src="https://dl3.pushbulletusercontent.com/bVNJJYfUQIjsbjkl7DOIqPmzuTdoTgHC/BarbJamfebRightsideup.png" style='width: 44%;margin: auto;transform:translate3d(0,4em,0);min-width: 350px' alt="">
+  <div class="uk-position-top">
+    <nav class="uk-navbar-container uk-navbar-transparent " uk-navbar>
+      <div class="uk-navbar-left">
+        <a href="#offcanvas-usage" class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle style="color:white"></a>
+        <ul class="uk-navbar-nav">
+          <li class="uk-active"><a style="color:white" href="#">Active</a></li>
+          <li><a href="#" style="color:white">Item</a></li>
+          <li>
+            <a href="#" style="color:white">Item</a>
+            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
+              <div class="uk-navbar-dropdown-grid uk-child-width-1-3" uk-grid>
+                <div>
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li class="uk-nav-header">Header</li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="#">Item</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li class="uk-nav-header">Header</li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="#">Item</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li class="uk-nav-header">Header</li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="#">Item</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="text-box">
+    <h1 class="heading-primary">
+      <span class="heading-primary-main" style="font-size: 1.32em;margin-top: 2em;display: none;">Barbara Jeanne's 
+      Jam's n Jellies</span>
+      <span class="heading-primary-sub" style="display: none;">The secondary heading</span>
+    </h1>
+    <a href="#" class="btn btn-white btn-animated" id="hero-btn" style="margin-top: 13.5rem;color: white;font-weight: bold;">Discover our Products</a>
+  </div>
+</header>
+
+<!-- <button class="button-fixed">Checkout</button>
+ -->
+<!--  <button class="uk-button uk-button-primary button-fixed">Checkout</button>
+ -->
+<!--  <span uk-icon="icon:cart, ratio: 3.5"" class="button-fixed"></span>
+ -->
+<a uk-icon="icon: cart; ratio: 1.5" class="uk-icon-button uk-margin-small-right button-fixed"></a>
+
+<div id="offcanvas-usage" uk-offcanvas="mode: push; overlay: true">
+  <div class="uk-offcanvas-bar">
+
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+    <h3>Title</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+  </div>
+</div>
+</div>
+
+<div class="uk-grid-divider uk-child-width-expand@s  uk-text-center uk-margin-large-top" uk-scrollspy="cls:uk-animation-slide-top; target: > h2 ;" uk-grid style="color: blue;margin: 40px 0 0 0;">
+  <h2> Quality Ingredients <p uk-icon="icon: check; ratio: 3.5"></p>
+    <br>
+      <span style="font-size: 16px;color: grey;"><i class="fa fa-star" style="padding: 5px 7px 5px 7px;"></i>Fresh Michigan fruits
+        <br>
+        - Straight from a local finest fruit farm blueberries and other fresh fruits grow their way into our Barb's "That's My Jam, Original Recipe" and into our hearts.
+      </span>
+
+    
+  </h2>
+  <h2>Fresh Michigan fruits</h2>
+  <h2>Straight from a local finest fruit farm blueberries and other fresh fruits grow their way into our Barb's "That's My Jam, Original Recipe" and into our hearts.</h2>
+</div>
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-large-top" uk-scrollspy="cls: uk-animation-slide-right; target: > div; " uk-grid>
+  <div class="uk-card-media-left uk-cover-container">
+    <img data-src="https://images.unsplash.com/photo-1470309864661-68328b2cd0a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" uk-cover uk-img width="1800" height="1200">
+    <canvas width="600" height="400"></canvas>
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+
+    </div>
+
+  </div>
+  <div>
+    <div class="uk-card-body">
+      <h1 style="color: darkorange; font-family: 'Montserrat', sans-serif;">SALE ON APPAREL</h1>
+      <h3>Try Our Newest Collection Now</h3>
+    </div>
+    <div class="uk-margin-left">
+      <!--                   <button class="uk-button uk-button-primary uk-margin-left uk-margin-bottom">Primary</button>
+ -->
+      <!--       <button style="color: red;" class="uk-button uk-button-default uk-button-large uk-margin-left uk-margin-bottom">Explore</button> -->
+
+      <div class="ui vertical animated teal big button uk-margin-left" tabindex="0">
+        <div class="visible content">Shop</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style=" background-color: ghostwhite" class="uk-margin uk-margin-large-top">
+  <h2 class="uk-text-center uk-margin-large-top " style="font-family: 'Montserrat', sans-serif; color: crimson">Popular Products</h2>
+  <div uk-filter="target: .js-filter">
+
+    <ul class="uk-subnav uk-subnav-pill uk-flex uk-flex-center  uk-margin-small-top ">
+      <li class="uk-active " uk-filter-control><a href="#">Everyone</a></li>
+      <li uk-filter-control="[data='white']"><a href="#">Women</a></li>
+      <li uk-filter-control="[data='blue']"><a href="#">Men</a></li>
+      <li uk-filter-control="[data='black']"><a href="#">Kids</a></li>
+    </ul>
+
+    <ul class="js-filter uk-child-width-1-1 uk-child-width-1-4@s uk-text-center" uk-scrollspy="cls: uk-animation-fade; target: > li > .uk-card;  " uk-grid>
+      <li data="white">
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-media-top">
+            <img src="https://cdn.hc-retail.com/images/shared/catalog200x200/BAGS1489441587/800_552f78_p1-200x200.jpg">
+
+          </div>
+          <div class="uk-card-body">
+            <div class="uk-card-title">Addidas Bag</div>
+            <span class="uk-text-bold">Bag</span>
+            <span style="margin-left: 10px;">$15</span>
+          </div>
+          <div class="uk-card-footer">
+            <a href="" class="ui button">Know more</a>
+<!--             <button class="ui button">Know More</button> -->
+            <a href=" " style="margin-left: 10px;" class="ui positive  animated fade button" tabindex="0">
+              <div class="hidden content">Shop</div>
+              <div class="visible content">
+                <i class="shop  icon"></i>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </li>
+      <li data="blue">
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-media-top">
+            <img src="https://cdn.hc-retail.com/images/shared/catalog200x200/BAGS1489441587/800_552f78_p1-200x200.jpg">
+
+          </div>
+          <div class="uk-card-body">
+            <div class="uk-card-title">Addidas Bag</div>
+            <span class="uk-text-bold">Bag</span>
+            <span style="margin-left: 10px;">$15</span>
+          </div>
+          <div class="uk-card-footer">
+            <button class="ui button">Know More</button>
+            <div style="margin-left: 10px;" class="ui positive  animated fade button" tabindex="0">
+              <div class="hidden content">Shop</div>
+              <div class="visible content">
+                <i class="shop  icon"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </li>
+      <li data="white">
+        <div class="uk-card uk-card-default uk-card-body">Item</div>
+      </li>
+      <li data="white">
+        <div class="uk-card uk-card-default uk-card-body">Item</div>
+      </li>
+      <li data="black">
+        <div class="uk-card uk-card-secondary uk-card-body">Item</div>
+      </li>
+      <li data="black">
+        <div class="uk-card uk-card-secondary uk-card-body">Item</div>
+      </li>
+      <li data="blue">
+        <div class="uk-card uk-card-primary uk-card-body">Item</div>
+      </li>
+      <li data="black">
+        <div class="uk-card uk-card-secondary uk-card-body">Item</div>
+      </li>
+      <li data="blue">
+        <div class="uk-card uk-card-primary uk-card-body">Item</div>
+      </li>
+      <li data="white">
+        <div class="uk-card uk-card-default uk-card-body">Item</div>
+      </li>
+      <li data="blue">
+        <div class="uk-card uk-card-primary uk-card-body">Item</div>
+      </li>
+      <li data="black">
+        <div class="uk-card uk-card-secondary uk-card-body">Item</div>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<h2 class="uk-heading-secondary uk-text-center uk-margin-xlarge-top" style="font-family: 'Montserrat', sans-serif;">Popular Categories</h2>
+<div class="uk-grid-medium  uk-child-width-1-2 uk-child-width-1-4@s uk-text-center" uk-grid uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div; ">
+
+  <div class="uk-inline">
+    <img src="https://images.unsplash.com/photo-1485856407642-7f9ba0268b51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="600px" height="400px">
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+      <p class=" uk-text-large uk-text-uppercase" style="color: black">Electronics</p>
+      <div class="ui animated blue big button" tabindex="0">
+        <div class="visible content">Explore</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uk-inline">
+    <img src="https://images.unsplash.com/photo-1526170160160-1a5eb242ab58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="600px" height="400px">
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+      <p class="uk-text-lead uk-text-uppercase" style="color: black">Books</p>
+      <div class="ui animated blue big button" tabindex="0">
+        <div class="visible content">Explore</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uk-inline">
+    <img src="  https://images.unsplash.com/photo-1532697057284-bbe526e18cdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="600px" height="400px">
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+      <p class="uk-text-lead uk-text-uppercase" style="color: black">Bags</p>
+      <div class="ui animated blue big button" tabindex="0">
+        <div class="visible content">Explore</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="uk-inline">
+    <img src="https://images.unsplash.com/photo-1526547319484-63dce467060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="600px" height="400px">
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+      <p class="uk-text-lead uk-text-uppercase" style="color: black">Drinkware</p>
+      <div class="ui animated blue big button" tabindex="0">
+        <div class="visible content">Explore</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="uk-inline">
+    <img src="https://images.unsplash.com/photo-1510936994138-07e06c7c5add?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="600px" height="400px">
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+      <p class="uk-text-lead uk-text-uppercase" style="color: black">Pens & Writing</p>
+      <div class="ui animated blue big button" tabindex="0">
+        <div class="visible content">Explore</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="uk-inline">
+    <img src="https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="600px" height="400px">
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+      <p class="uk-text-lead uk-text-uppercase" style="color: black">Health & Wellness</p>
+      <div class="ui animated blue big button" tabindex="0">
+        <div class="visible content">Explore</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="uk-inline">
+    <img src="https://images.unsplash.com/photo-1523635252177-cedd4a1502c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="600px" height="400px">
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+      <p class="uk-text-lead uk-text-uppercase" style="color: black">Desk Accessories</p>
+      <div class="ui animated blue big button" tabindex="0">
+        <div class="visible content">Explore</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="uk-inline">
+    <img src="https://images.unsplash.com/photo-1531616918159-0c11198cd033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="600px" height="400px">
+    <div class="uk-overlay-default uk-position-cover"></div>
+    <div class="uk-overlay uk-position-center uk-dark">
+      <p class="uk-text-lead uk-text-uppercase" style="color: black">Home & Auto</p>
+      <div class="ui animated blue big button" tabindex="0">
+        <div class="visible content">Explore</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+  <!-- Header Showcase -->
+<header id="showcase" class="grid">
+  <div class="bg-image"></div>
+  <div class="content-wrap">
+    <h1>Welcome to Acme Web Solutions</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.</p>
+    <a href="#section-b" class="btn">Read More</a>
+  </div>
+</header>
+
+<!-- Main Area -->
+<main id="main">
+  <!-- Section A -->
+  <section id="section-a" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">Web & Application Development</h2>
+      <div class="content-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi
+          animi totam, accusantium, ex eius quia, natus quo?</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section B -->
+  <section id="section-b" class="grid">
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg" alt="">
+          <div class="card-content">
+            <h3 class="card-title">Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt="">
+          <div class="card-content">
+            <h3 class="card-title">Mobile Applications</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <img src="https://static.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="">
+          <div class="card-content">
+            <h3 class="card-title">Tech Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section C -->
+  <section id="section-c" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">We handle all of your digital needs</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat cupiditate, dolore eius! Minus, explicabo.</p>
+    </div>
+  </section>
+
+  <!-- Section D -->
+  <section id="section-d" class="grid">
+    <div class="box">
+      <h2 class="content-title">Contact Us</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.</p>
+      <p>contact@acmewebsolutions.test</p>
+    </div>
+    <div class="box">
+      <h2 class="content-title">About Our Company</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?</p>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer id="main-footer" class="grid">
+  <div>Acme Web Solutions</div>
+  <div>Project By <a href="http://.com" target="_blank"> Media</a></div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit-icons.min.js"></script>
+</body>
+</html>
